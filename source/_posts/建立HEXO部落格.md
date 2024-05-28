@@ -4,7 +4,7 @@ date: 2024-05-28 10:00:00
 tags:
  - HEXO
  - GitHub
-categories: HEXOSCHOOL
+categories: HEXSCHOOL
 description: 建立 HEXO 部落格並將其部署到 GitHub Pages 是一個快速而有效的方法來建立個人部落格或網站。HEXO 是一個基於 Node.js 的靜態網站生成器，它可以幫助你快速建立並管理部落格內容，而 GitHub Pages 則是一個由 GitHub 提供的免費靜態網站主機服務，你可以將你的 HEXO 部落格部署到 GitHub Pages 上。
 ---
 
