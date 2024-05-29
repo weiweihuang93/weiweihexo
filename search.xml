@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>0527每日任務</title>
+    <url>/weiweihexo/2024/05/28/0527%E6%AF%8F%E6%97%A5%E4%BB%BB%E5%8B%99/</url>
+    <content><![CDATA[<h2 id="切版任務-Day24-選單四角-hover-效果製作"><a href="#切版任務-Day24-選單四角-hover-效果製作" class="headerlink" title="切版任務 Day24 - 選單四角 hover 效果製作"></a>切版任務 Day24 - 選單四角 hover 效果製作</h2><h3 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h3><p>今天是實作設計稿中的這個外框部分<br><img src="https://imgur.com/AQP4g9l.png"></p>
+<blockquote>
+<p>四個角的部分</p>
+</blockquote>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>可以透過方形的 border ，增加 <code>border-bottom: none;</code> 這類的語法將方形的 border 取消兩邊，就能取得只有兩邊的圖形，在針對四個角去做設定即可得到我們所需的樣子。</p>
+<p>可以利用此 <a href="https://codepen.io/jmimiding4104/pen/vYwXBNq">模板</a> 修改 CSS <code>...</code> 的部分練習，<br>也可以嘗試自己從頭開始練習製作。</p>
+]]></content>
+      <categories>
+        <category>HEXSCHOOL</category>
+      </categories>
+      <tags>
+        <tag>每日任務</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/weiweihexo/2024/05/28/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -19,23 +36,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>0527每日任務</title>
-    <url>/weiweihexo/2024/05/28/0527%E6%AF%8F%E6%97%A5%E4%BB%BB%E5%8B%99/</url>
-    <content><![CDATA[<h2 id="切版任務-Day24-選單四角-hover-效果製作"><a href="#切版任務-Day24-選單四角-hover-效果製作" class="headerlink" title="切版任務 Day24 - 選單四角 hover 效果製作"></a>切版任務 Day24 - 選單四角 hover 效果製作</h2><h3 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h3><p>今天是實作設計稿中的這個外框部分<br><img src="https://imgur.com/AQP4g9l.png"></p>
-<blockquote>
-<p>四個角的部分</p>
-</blockquote>
-<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><p>可以透過方形的 border ，增加 <code>border-bottom: none;</code> 這類的語法將方形的 border 取消兩邊，就能取得只有兩邊的圖形，在針對四個角去做設定即可得到我們所需的樣子。</p>
-<p>可以利用此 <a href="https://codepen.io/jmimiding4104/pen/vYwXBNq">模板</a> 修改 CSS <code>...</code> 的部分練習，<br>也可以嘗試自己從頭開始練習製作。</p>
-]]></content>
-      <categories>
-        <category>HEXSCHOOL</category>
-      </categories>
-      <tags>
-        <tag>每日任務</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>建立HEXO部落格</title>
     <url>/weiweihexo/2024/05/28/%E5%BB%BA%E7%AB%8BHEXO%E9%83%A8%E8%90%BD%E6%A0%BC/</url>
     <content><![CDATA[<h2 id="只要一到指令，瞬間建立一則部落格！"><a href="#只要一到指令，瞬間建立一則部落格！" class="headerlink" title="只要一到指令，瞬間建立一則部落格！"></a>只要一到指令，瞬間建立一則部落格！</h2><h3 id="常用Hexo指令"><a href="#常用Hexo指令" class="headerlink" title="常用Hexo指令"></a>常用Hexo指令</h3><pre><code>* hexo new ‘文章名稱’
@@ -44,9 +44,22 @@
 * hexo clean - 清除暫存
 * hexo deploy - 部屬
 </code></pre>
-<p>Hexo + GitHub Pages 官方部署說明 <a href="https://hexo.io/zh-tw/docs/github-pages#%E4%B8%80%E9%8D%B5%E9%83%A8%E5%B1%AC">連結</a></p>
+<h3 id="快速認識Hexo目錄結構，建立全站設定檔案config-yml"><a href="#快速認識Hexo目錄結構，建立全站設定檔案config-yml" class="headerlink" title="快速認識Hexo目錄結構，建立全站設定檔案config.yml"></a>快速認識Hexo目錄結構，建立全站設定檔案config.yml</h3><h3 id="客製化頁面-About-me"><a href="#客製化頁面-About-me" class="headerlink" title="客製化頁面 About me"></a>客製化頁面 About me</h3><h3 id="全域網站接入客製選單"><a href="#全域網站接入客製選單" class="headerlink" title="全域網站接入客製選單"></a>全域網站接入客製選單</h3><ul>
+<li><p>指令 <code>hexo new page &#39;About&#39;</code></p>
+</li>
+<li><p>hexo-theme-landscape 樣式連結 <a href="https://github.com/hexojs/hexo-theme-landscape">連結</a></p>
+</li>
+<li><p>Install via git:</p>
+<p>  <code>git clone --depth 1 https://github.com/hexojs/hexo-theme-landscape themes/landscape</code></p>
+</li>
+</ul>
+<p>themes資料夾 自動新增 landscape</p>
+<ul>
+<li>_config.yml 有Home&#x2F;Archives 橫幅內容，再加入About</li>
+</ul>
+<h3 id="安裝Git，準備推到免費空間"><a href="#安裝Git，準備推到免費空間" class="headerlink" title="安裝Git，準備推到免費空間"></a>安裝Git，準備推到免費空間</h3><h3 id="讓-VSCode-綁定你的-GitHub-帳號，準備部署網站"><a href="#讓-VSCode-綁定你的-GitHub-帳號，準備部署網站" class="headerlink" title="讓 VSCode 綁定你的 GitHub 帳號，準備部署網站"></a>讓 VSCode 綁定你的 GitHub 帳號，準備部署網站</h3><h3 id="環境-在-GitHub-上開一個網頁空間！"><a href="#環境-在-GitHub-上開一個網頁空間！" class="headerlink" title="環境-在 GitHub 上開一個網頁空間！"></a>環境-在 GitHub 上開一個網頁空間！</h3><h3 id="免費空間-用-GitHub-Pages-來部署你的部落格"><a href="#免費空間-用-GitHub-Pages-來部署你的部落格" class="headerlink" title="免費空間 - 用 GitHub Pages 來部署你的部落格"></a>免費空間 - 用 GitHub Pages 來部署你的部落格</h3><p>Hexo + GitHub Pages 官方部署說明 <a href="https://hexo.io/zh-tw/docs/github-pages#%E4%B8%80%E9%8D%B5%E9%83%A8%E5%B1%AC">連結</a></p>
 <pre><code>1. 安裝 hexo-deployer-git.
-    npm install hexo-deployer-git --save
+    <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
 2. 清空 _config.yml 的現有資料，並新增以下組態:
     deploy:
@@ -57,8 +70,51 @@
 
 3. 執行 hexo clean &amp;&amp; hexo deploy
 4. 瀏覽 &lt;GitHub 用戶名&gt;.github.io 檢查你的網站能否運作。
+
+註：_config.yml檔案共有兩處須更改，除了上述的部分，還有
+
+5. URL - Set your site url here. For example, if you use GitHub Page, set url as
+    <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://username.github.io/project</span><br></pre></td></tr></table></figure>
 </code></pre>
-<h3 id="等待Settings-Pages"><a href="#等待Settings-Pages" class="headerlink" title="等待Settings&#x2F;Pages"></a>等待Settings&#x2F;Pages</h3><p>網頁無法載入模板，請設定url </p>
+<h3 id="認識-layout-ejs-主樣版"><a href="#認識-layout-ejs-主樣版" class="headerlink" title="認識 layout.ejs 主樣版"></a>認識 layout.ejs 主樣版</h3><h3 id="增加-fullPage-指定滿版變數"><a href="#增加-fullPage-指定滿版變數" class="headerlink" title="增加 fullPage 指定滿版變數"></a>增加 fullPage 指定滿版變數</h3><ul>
+<li>About &#x2F; index.md 加入 <code>fullPage:true</code></li>
+<li>layout.ejs 加入 <code>!page.fullPage &amp;&amp;</code></li>
+</ul>
+<h3 id="增加-CSS-變成滿版樣式"><a href="#增加-CSS-變成滿版樣式" class="headerlink" title="增加 CSS 變成滿版樣式"></a>增加 CSS 變成滿版樣式</h3><ul>
+<li><code>class=&quot;&lt;%= page.fullPage === true ? &#39;fullPage&#39; : &#39;&#39; %&gt;&quot;&gt;</code></li>
+</ul>
+<p>這個表達式的作用是根據page.fullPage的值來動態地決定是否給該元素添加”fullPage”這個class。<br>如果page.fullPage的值為true，則該元素會有”fullPage”這個class，否則不添加任何class。</p>
+<pre><code>&lt;style&gt;
+    .fullPage #main&#123;
+    width: 100%;
+    float: none;
+    &#125;
+        &lt;/style&gt;
+</code></pre>
+<h3 id="隱藏部落格區塊方法"><a href="#隱藏部落格區塊方法" class="headerlink" title="隱藏部落格區塊方法"></a>隱藏部落格區塊方法</h3><pre><code>.fullPage .article-meta,
+.fullPage .article-header,
+.fullPage .article-footer&#123;
+  display: none;
+&#125;
+</code></pre>
+<h3 id="讓首頁的部落格頁面移動到-blog-路由網址"><a href="#讓首頁的部落格頁面移動到-blog-路由網址" class="headerlink" title="讓首頁的部落格頁面移動到 blog 路由網址"></a>讓首頁的部落格頁面移動到 blog 路由網址</h3><p>_config.yml<br>    index_generator:<br>    path: <code>&#39;/blog&#39;</code><br>    per_page: 10<br>    order_by: -date</p>
+<p>themes&#x2F;landscape&#x2F;_config.yml<br>menu:<br>  首頁: &#x2F;<br>  部落格: <code>/blog</code><br>  關於我: &#x2F;About</p>
+<h3 id="新增客製化首頁"><a href="#新增客製化首頁" class="headerlink" title="新增客製化首頁"></a>新增客製化首頁</h3><pre><code>---
+title: 首頁
+fullPage: true
+---
+
+&lt;h2&gt;首頁內容&lt;/h2&gt;
+
+&lt;p&gt;lorem30&lt;/p&gt;
+&lt;p&gt;lorem30&lt;/p&gt;
+</code></pre>
+<h3 id="修改-CSS-選單顏色"><a href="#修改-CSS-選單顏色" class="headerlink" title="修改 CSS 選單顏色"></a>修改 CSS 選單顏色</h3><h3 id="改成自己喜歡的-Banner-圖片"><a href="#改成自己喜歡的-Banner-圖片" class="headerlink" title="改成自己喜歡的 Banner 圖片"></a>改成自己喜歡的 Banner 圖片</h3><img src="https://firebasestorage.googleapis.com/v0/b/weiweihexo.appspot.com/o/%E6%9C%AA%E5%91%BD%E5%90%8D.png?alt=media&token=0bcd4687-5904-4de5-954c-0a7379fa9eea" width="200">
+
+<pre><code>註：使用firebase/建立storage
+</code></pre>
+<p>直接更改style.css</p>
+<p>source新增一個檔案index.hml</p>
 ]]></content>
       <categories>
         <category>HEXSCHOOL</category>
